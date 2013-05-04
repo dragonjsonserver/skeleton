@@ -16,7 +16,9 @@ PHP Framework für JsonRPC 2 APIs mit Zend Framework 2.
 ## Aktualisierung
 
 1. Abhängigkeiten aktualisieren per "composer update" (Windows) bzw. "php composer.phar update" (Unix, Mac) 
+
 Für alle Erweiterungen die aktualisiert wurden:
+
 1.1. Wenn vorhanden Dateien von "/vendor/dragonprojects/%packagename%/public" in das "/public" Verzeichnis kopieren
 
 ## Erweiterungen
