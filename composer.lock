@@ -724,12 +724,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonprojects/dragonjsonserver.git",
-                "reference": "a561530595ee72c673ff7b61ce61f5de334fe4a8"
+                "reference": "c21e6fece629afd84336b689bbe61e2e68c9a8e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserver/zipball/a561530595ee72c673ff7b61ce61f5de334fe4a8",
-                "reference": "a561530595ee72c673ff7b61ce61f5de334fe4a8",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserver/zipball/c21e6fece629afd84336b689bbe61e2e68c9a8e6",
+                "reference": "c21e6fece629afd84336b689bbe61e2e68c9a8e6",
                 "shasum": ""
             },
             "require": {
@@ -764,7 +764,7 @@
                 "dragonprojects",
                 "jsonrpc2"
             ],
-            "time": "2013-05-02 16:44:51"
+            "time": "2013-05-04 01:31:24"
         },
         {
             "name": "dragonprojects/dragonjsonserveraccount",
@@ -1097,16 +1097,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonprojects/dragonjsonserverdoctrine.git",
-                "reference": "d4b74ca7e10eb24eb132009eed7874e5524f5724"
+                "reference": "aa511b067f380a163d2a770ef04e8dc412a766c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserverdoctrine/zipball/d4b74ca7e10eb24eb132009eed7874e5524f5724",
-                "reference": "d4b74ca7e10eb24eb132009eed7874e5524f5724",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserverdoctrine/zipball/aa511b067f380a163d2a770ef04e8dc412a766c5",
+                "reference": "aa511b067f380a163d2a770ef04e8dc412a766c5",
                 "shasum": ""
             },
             "require": {
-                "doctrine/doctrine-orm-module": "dev-master",
+                "doctrine/doctrine-orm-module": "0.*",
                 "dragonprojects/dragonjsonserver": "dev-master",
                 "php": ">=5.4.0",
                 "zendframework/zendframework": "2.*"
@@ -1134,7 +1134,7 @@
             ],
             "description": "Erweiterung für den DragonJsonServer zur Nutzung von Doctrine 2",
             "homepage": "http://dragonjsonserver.de/",
-            "time": "2013-04-09 18:51:37"
+            "time": "2013-05-04 01:18:15"
         },
         {
             "name": "dragonprojects/dragonjsonserveremailaddress",
@@ -1234,12 +1234,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonprojects/dragonjsonservergui.git",
-                "reference": "4d18a1961a26341d4918c0c242ee286137b43e32"
+                "reference": "189b7b2563d8083cfa430fc01d80ab2f4b1d3b56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonprojects/dragonjsonservergui/zipball/4d18a1961a26341d4918c0c242ee286137b43e32",
-                "reference": "4d18a1961a26341d4918c0c242ee286137b43e32",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonservergui/zipball/189b7b2563d8083cfa430fc01d80ab2f4b1d3b56",
+                "reference": "189b7b2563d8083cfa430fc01d80ab2f4b1d3b56",
                 "shasum": ""
             },
             "require": {
@@ -1270,7 +1270,7 @@
             ],
             "description": "Erweiterung für den DragonJsonServer zur Erstellung einer GUI aus der SMD",
             "homepage": "http://dragonjsonserver.de/",
-            "time": "2013-05-04 00:21:23"
+            "time": "2013-05-04 00:38:19"
         },
         {
             "name": "dragonprojects/dragonjsonserverrequestlog",
