@@ -1,0 +1,23 @@
+{
+	"minimum-stability": "dev",
+    "require": {
+        "php": "5.4.*",
+        "zendframework/zendframework": "2.1.*",
+        "dragonprojects/dragonjsonserver": "dev-master",
+        "dragonprojects/dragonjsonserveraccount": "dev-master",
+        "dragonprojects/dragonjsonserveralliance": "dev-master",
+        "dragonprojects/dragonjsonserverapiannotation": "dev-master",
+        "dragonprojects/dragonjsonserveravatar": "dev-master",
+        "dragonprojects/dragonjsonserveravatarmessage": "dev-master",
+        "dragonprojects/dragonjsonserveravatarmuteban": "dev-master",
+        "doctrine/doctrine-orm-module": "0.*",
+        "dragonprojects/dragonjsonserverdevice": "dev-master",
+        "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+        "dragonprojects/dragonjsonserveremailaddress": "dev-master",
+        "dragonprojects/dragonjsonservergameround": "dev-master",
+        "dragonprojects/dragonjsonservergui": "dev-master",
+        "dragonprojects/dragonjsonserverrequestlog": "dev-master",
+        "dragonprojects/dragonjsonserversecuritytoken": "dev-master",
+        "dragonprojects/dragonjsonservertickevent": "dev-master"
+    }
+}

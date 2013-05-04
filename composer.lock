@@ -1,0 +1,1600 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "79b32f748183f41629a48e1fcb28f4a6",
+    "packages": [
+        {
+            "name": "doctrine/annotations",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "v1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/v1.1.1",
+                "reference": "v1.1.1",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Annotations\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2013-04-20 08:30:17"
+        },
+        {
+            "name": "doctrine/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/cache.git",
+                "reference": "b5716ea776f349a0fedcf0e7d032386c1f696f76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/b5716ea776f349a0fedcf0e7d032386c1f696f76",
+                "reference": "b5716ea776f349a0fedcf0e7d032386c1f696f76",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Cache\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Caching library offering an object-oriented API for many cache backends",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "cache",
+                "caching"
+            ],
+            "time": "2013-03-17 13:59:02"
+        },
+        {
+            "name": "doctrine/collections",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/collections.git",
+                "reference": "df2138bcb467533bfe6b3a01301d480aec008b93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/df2138bcb467533bfe6b3a01301d480aec008b93",
+                "reference": "df2138bcb467533bfe6b3a01301d480aec008b93",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Collections\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Collections Abstraction library",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "array",
+                "collections",
+                "iterator"
+            ],
+            "time": "2013-03-17 14:01:33"
+        },
+        {
+            "name": "doctrine/common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/common.git",
+                "reference": "3506be7467dbd4f923691a00555cf80065d32e59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/3506be7467dbd4f923691a00555cf80065d32e59",
+                "reference": "3506be7467dbd4f923691a00555cf80065d32e59",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "1.*",
+                "doctrine/cache": "1.*",
+                "doctrine/collections": "1.*",
+                "doctrine/inflector": "1.*",
+                "doctrine/lexer": "1.*",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Common Library for Doctrine projects",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "collections",
+                "eventmanager",
+                "persistence",
+                "spl"
+            ],
+            "time": "2013-04-16 21:50:30"
+        },
+        {
+            "name": "doctrine/dbal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/dbal.git",
+                "reference": "1d8d6bcfec388e17480b2c8953820b7c3e6d0850"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/1d8d6bcfec388e17480b2c8953820b7c3e6d0850",
+                "reference": "1d8d6bcfec388e17480b2c8953820b7c3e6d0850",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "2.4.x-dev",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "symfony/console": "2.*"
+            },
+            "suggest": {
+                "symfony/console": "Allows use of the command line interface"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\DBAL\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                }
+            ],
+            "description": "Database Abstraction Layer",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "dbal",
+                "persistence",
+                "queryobject"
+            ],
+            "time": "2013-05-01 17:26:25"
+        },
+        {
+            "name": "doctrine/doctrine-module",
+            "version": "0.8.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/DoctrineModule.git",
+                "reference": "1d8fbea58a5387a7d1e3b37bd3c84d0c8c342a43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineModule/zipball/1d8fbea58a5387a7d1e3b37bd3c84d0c8c342a43",
+                "reference": "1d8fbea58a5387a7d1e3b37bd3c84d0c8c342a43",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": ">=2.3,<2.5-dev",
+                "php": ">=5.3.3",
+                "symfony/console": ">=2.1,<3.0",
+                "zendframework/zend-authentication": ">=2.1,<3.0",
+                "zendframework/zend-cache": ">=2.1,<3.0",
+                "zendframework/zend-mvc": ">=2.1,<3.0",
+                "zendframework/zend-paginator": ">=2.1,<3.0",
+                "zendframework/zend-servicemanager": ">=2.1,<3.0",
+                "zendframework/zend-stdlib": ">=2.1,<3.0",
+                "zendframework/zend-validator": ">=2.1,<3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=3.7",
+                "squizlabs/php_codesniffer": "1.4.*",
+                "zendframework/zend-test": ">=2.1,<3.0"
+            },
+            "suggest": {
+                "doctrine/data-fixtures": "Data Fixtures if you want to generate test data or bootstrap data for your deployments"
+            },
+            "bin": [
+                "bin/doctrine-module"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "DoctrineModule\\": "src/",
+                    "DoctrineModuleTest\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me",
+                    "homepage": "http://www.spiffyjr.me/"
+                },
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://marco-pivetta.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@hotmail.com"
+                },
+                {
+                    "name": "Michaël Gallego",
+                    "email": "mic.gallego@gmail.com",
+                    "homepage": "http://www.michaelgallego.fr"
+                }
+            ],
+            "description": "Zend Framework 2 Module that provides Doctrine basic functionality required for ORM and ODM modules",
+            "homepage": "http://www.doctrine-project.org/",
+            "keywords": [
+                "doctrine",
+                "module",
+                "zf2"
+            ],
+            "time": "2013-04-28 17:02:11"
+        },
+        {
+            "name": "doctrine/doctrine-orm-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/DoctrineORMModule.git",
+                "reference": "e77dd8e4bc07dc80e6b8c3617a3827eb5435e013"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineORMModule/zipball/e77dd8e4bc07dc80e6b8c3617a3827eb5435e013",
+                "reference": "e77dd8e4bc07dc80e6b8c3617a3827eb5435e013",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": ">=2.3,<2.5-dev",
+                "doctrine/doctrine-module": "0.8.*",
+                "doctrine/orm": ">=2.3,<2.5-dev",
+                "php": ">=5.3.3",
+                "zendframework/zend-form": ">=2.1",
+                "zendframework/zend-mvc": ">=2.1",
+                "zendframework/zend-servicemanager": ">=2.1",
+                "zendframework/zend-stdlib": ">=2.1"
+            },
+            "require-dev": {
+                "doctrine/data-fixtures": "1.0.*@ALPHA",
+                "doctrine/migrations": "1.*",
+                "phpunit/phpunit": ">=3.7",
+                "squizlabs/php_codesniffer": "1.4.*",
+                "zendframework/zend-developer-tools": "*"
+            },
+            "suggest": {
+                "doctrine/migrations": "doctrine migrations if you want to keep your schema definitions versioned",
+                "zendframework/zend-developer-tools": "zend-developer-tools if you want to profile operations executed by the ORM during development"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "DoctrineORMModule\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me",
+                    "homepage": "http://www.spiffyjr.me/"
+                },
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://marco-pivetta.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Evan Coury",
+                    "email": "me@evancoury.com",
+                    "homepage": "http://blog.evan.pro/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@hotmail.com"
+                }
+            ],
+            "description": "Zend Framework 2 Module that provides Doctrine ORM functionality",
+            "homepage": "http://www.doctrine-project.org/",
+            "keywords": [
+                "doctrine",
+                "module",
+                "orm",
+                "zf2"
+            ],
+            "time": "2013-05-02 16:04:30"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "8b4b3ccec7aafc596e2fc1e593c9f2e78f939c8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/8b4b3ccec7aafc596e2fc1e593c9f2e78f939c8c",
+                "reference": "8b4b3ccec7aafc596e2fc1e593c9f2e78f939c8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Inflector\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "inflection",
+                "pluralize",
+                "singularize",
+                "string"
+            ],
+            "time": "2013-04-10 16:14:30"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "bc0e1f0cc285127a38c6c8ea88bc5dba2fd53e94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/bc0e1f0cc285127a38c6c8ea88bc5dba2fd53e94",
+                "reference": "bc0e1f0cc285127a38c6c8ea88bc5dba2fd53e94",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2013-03-07 12:15:25"
+        },
+        {
+            "name": "doctrine/orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/doctrine2.git",
+                "reference": "59fff4ddef236d373ae4d08e34114c9757cdf3d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/59fff4ddef236d373ae4d08e34114c9757cdf3d2",
+                "reference": "59fff4ddef236d373ae4d08e34114c9757cdf3d2",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/collections": ">=1.1,<2.0",
+                "doctrine/dbal": ">=2.4-beta,<2.5-dev",
+                "ext-pdo": "*",
+                "php": ">=5.3.2",
+                "symfony/console": "2.*"
+            },
+            "require-dev": {
+                "symfony/yaml": "2.1"
+            },
+            "suggest": {
+                "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
+            },
+            "bin": [
+                "bin/doctrine",
+                "bin/doctrine.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\ORM\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                }
+            ],
+            "description": "Object-Relational-Mapper for PHP",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "orm"
+            ],
+            "time": "2013-05-03 11:32:42"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserver",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserver.git",
+                "reference": "a561530595ee72c673ff7b61ce61f5de334fe4a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserver/zipball/a561530595ee72c673ff7b61ce61f5de334fe4a8",
+                "reference": "a561530595ee72c673ff7b61ce61f5de334fe4a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServer": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Framework für JsonRPC 2 APIs mit Zend Framework 2",
+            "homepage": "http://dragonjsonserver.de/",
+            "keywords": [
+                "dragonjsonserver",
+                "dragonprojects",
+                "jsonrpc2"
+            ],
+            "time": "2013-05-02 16:44:51"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserveraccount",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserveraccount.git",
+                "reference": "6fec489dbb552c512f8c3da82f01bfaea58befdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveraccount/zipball/6fec489dbb552c512f8c3da82f01bfaea58befdc",
+                "reference": "6fec489dbb552c512f8c3da82f01bfaea58befdc",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserverapiannotation": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerAccount": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Accounts und Sessions",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-04-26 22:46:16"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserveralliance",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserveralliance.git",
+                "reference": "30f526ec9b948e544d0b8dc606683cc728b3125f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveralliance/zipball/30f526ec9b948e544d0b8dc606683cc728b3125f",
+                "reference": "30f526ec9b948e544d0b8dc606683cc728b3125f",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserverapiannotation": "dev-master",
+                "dragonprojects/dragonjsonserveravatar": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerAlliance": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Allianzen",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-05-02 16:39:43"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserverapiannotation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserverapiannotation.git",
+                "reference": "727bd71689954b6c5872cc21526f286eb2fa56dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserverapiannotation/zipball/727bd71689954b6c5872cc21526f286eb2fa56dd",
+                "reference": "727bd71689954b6c5872cc21526f286eb2fa56dd",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerApiannotation": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Unterstützung von Annotations bei API Methoden",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-04-26 21:31:43"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserveravatar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserveravatar.git",
+                "reference": "a1c19046c917b41a9c55f09bf016c869d645fc77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatar/zipball/a1c19046c917b41a9c55f09bf016c869d645fc77",
+                "reference": "a1c19046c917b41a9c55f09bf016c869d645fc77",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserveraccount": "dev-master",
+                "dragonprojects/dragonjsonserverapiannotation": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "dragonprojects/dragonjsonservergameround": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerAvatar": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Avataren",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-04-29 19:44:03"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserveravatarmessage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserveravatarmessage.git",
+                "reference": "d6b4ada07addf02b66960912991edc7b138c86df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatarmessage/zipball/d6b4ada07addf02b66960912991edc7b138c86df",
+                "reference": "d6b4ada07addf02b66960912991edc7b138c86df",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserveravatar": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerAvatarmessage": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Avatarnachrichten",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-05-02 16:39:21"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserveravatarmuteban",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserveravatarmuteban.git",
+                "reference": "f04d458add499fed8099976dab405ca028356454"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatarmuteban/zipball/f04d458add499fed8099976dab405ca028356454",
+                "reference": "f04d458add499fed8099976dab405ca028356454",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserveravatar": "dev-master",
+                "dragonprojects/dragonjsonserveravatarmessage": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerAvatarmuteban": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Avatarmutebanns",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-04-26 21:32:04"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserverdevice",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserverdevice.git",
+                "reference": "7fb541adfc6e37890f7f6c373b1db3727e00e6d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserverdevice/zipball/7fb541adfc6e37890f7f6c373b1db3727e00e6d1",
+                "reference": "7fb541adfc6e37890f7f6c373b1db3727e00e6d1",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserveraccount": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerDevice": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verknüpfung von Devices zu Accounts",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-04-26 23:59:26"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserverdoctrine",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserverdoctrine.git",
+                "reference": "d4b74ca7e10eb24eb132009eed7874e5524f5724"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserverdoctrine/zipball/d4b74ca7e10eb24eb132009eed7874e5524f5724",
+                "reference": "d4b74ca7e10eb24eb132009eed7874e5524f5724",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-orm-module": "dev-master",
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerDoctrine": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Nutzung von Doctrine 2",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-04-09 18:51:37"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserveremailaddress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserveremailaddress.git",
+                "reference": "5d37e5befeef2d0b064e68e2242d83d08a3e13d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveremailaddress/zipball/5d37e5befeef2d0b064e68e2242d83d08a3e13d1",
+                "reference": "5d37e5befeef2d0b064e68e2242d83d08a3e13d1",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserveraccount": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerEmailaddress": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verknüpfung von E-Mail Adressen zu Accounts",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-04-29 19:43:32"
+        },
+        {
+            "name": "dragonprojects/dragonjsonservergameround",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonservergameround.git",
+                "reference": "68610e895b51094011c901ee96cbe9f28e94aed5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonservergameround/zipball/68610e895b51094011c901ee96cbe9f28e94aed5",
+                "reference": "68610e895b51094011c901ee96cbe9f28e94aed5",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "dragonprojects/dragonjsonservertickevent": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerGameround": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Spielrunden",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-05-03 17:24:38"
+        },
+        {
+            "name": "dragonprojects/dragonjsonservergui",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonservergui.git",
+                "reference": "4d18a1961a26341d4918c0c242ee286137b43e32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonservergui/zipball/4d18a1961a26341d4918c0c242ee286137b43e32",
+                "reference": "4d18a1961a26341d4918c0c242ee286137b43e32",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerGUI": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Erstellung einer GUI aus der SMD",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-05-04 00:21:23"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserverrequestlog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserverrequestlog.git",
+                "reference": "9cc0ef10d8a11f0720a95696ed5150f8ac3f4077"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserverrequestlog/zipball/9cc0ef10d8a11f0720a95696ed5150f8ac3f4077",
+                "reference": "9cc0ef10d8a11f0720a95696ed5150f8ac3f4077",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerRequestlog": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Protokollierung von Requests in die Datenbank",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-05-02 16:32:48"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserversecuritytoken",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserversecuritytoken.git",
+                "reference": "dcb53f09131131d0400cb9edad836cfa5670c2ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserversecuritytoken/zipball/dcb53f09131131d0400cb9edad836cfa5670c2ff",
+                "reference": "dcb53f09131131d0400cb9edad836cfa5670c2ff",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerSecuritytoken": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zum Absichern von API Namensräumen mit Securitytokens",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-04-09 19:29:43"
+        },
+        {
+            "name": "dragonprojects/dragonjsonservertickevent",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonservertickevent.git",
+                "reference": "6cbab9a5a3ec95908c24d51cf14b41c978c70d4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonservertickevent/zipball/6cbab9a5a3ec95908c24d51cf14b41c978c70d4e",
+                "reference": "6cbab9a5a3ec95908c24d51cf14b41c978c70d4e",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerTickevent": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Tickevents",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-05-02 18:55:30"
+        },
+        {
+            "name": "symfony/console",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "v2.3.0-BETA1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.3.0-BETA1",
+                "reference": "v2.3.0-BETA1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": ">=2.1,<3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-04-30 07:16:44"
+        },
+        {
+            "name": "zendframework/zendframework",
+            "version": "2.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zf2.git",
+                "reference": "release-2.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/release-2.1.5",
+                "reference": "release-2.1.5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "replace": {
+                "zendframework/zend-authentication": "self.version",
+                "zendframework/zend-barcode": "self.version",
+                "zendframework/zend-cache": "self.version",
+                "zendframework/zend-captcha": "self.version",
+                "zendframework/zend-code": "self.version",
+                "zendframework/zend-config": "self.version",
+                "zendframework/zend-console": "self.version",
+                "zendframework/zend-crypt": "self.version",
+                "zendframework/zend-db": "self.version",
+                "zendframework/zend-debug": "self.version",
+                "zendframework/zend-di": "self.version",
+                "zendframework/zend-dom": "self.version",
+                "zendframework/zend-escaper": "self.version",
+                "zendframework/zend-eventmanager": "self.version",
+                "zendframework/zend-feed": "self.version",
+                "zendframework/zend-file": "self.version",
+                "zendframework/zend-filter": "self.version",
+                "zendframework/zend-form": "self.version",
+                "zendframework/zend-http": "self.version",
+                "zendframework/zend-i18n": "self.version",
+                "zendframework/zend-inputfilter": "self.version",
+                "zendframework/zend-json": "self.version",
+                "zendframework/zend-ldap": "self.version",
+                "zendframework/zend-loader": "self.version",
+                "zendframework/zend-log": "self.version",
+                "zendframework/zend-mail": "self.version",
+                "zendframework/zend-math": "self.version",
+                "zendframework/zend-memory": "self.version",
+                "zendframework/zend-mime": "self.version",
+                "zendframework/zend-modulemanager": "self.version",
+                "zendframework/zend-mvc": "self.version",
+                "zendframework/zend-navigation": "self.version",
+                "zendframework/zend-paginator": "self.version",
+                "zendframework/zend-permissions-acl": "self.version",
+                "zendframework/zend-permissions-rbac": "self.version",
+                "zendframework/zend-progressbar": "self.version",
+                "zendframework/zend-serializer": "self.version",
+                "zendframework/zend-server": "self.version",
+                "zendframework/zend-servicemanager": "self.version",
+                "zendframework/zend-session": "self.version",
+                "zendframework/zend-soap": "self.version",
+                "zendframework/zend-stdlib": "self.version",
+                "zendframework/zend-tag": "self.version",
+                "zendframework/zend-test": "self.version",
+                "zendframework/zend-text": "self.version",
+                "zendframework/zend-uri": "self.version",
+                "zendframework/zend-validator": "self.version",
+                "zendframework/zend-version": "self.version",
+                "zendframework/zend-view": "self.version",
+                "zendframework/zend-xmlrpc": "self.version"
+            },
+            "require-dev": {
+                "doctrine/common": ">=2.1",
+                "ircmaxell/random-lib": "dev-master",
+                "ircmaxell/security-lib": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
+                "ext-intl": "ext/intl for i18n features",
+                "ircmaxell/random-lib": "Fallback random byte generator for Zend\\Math\\Rand if OpenSSL/Mcrypt extensions are unavailable",
+                "pecl-weakref": "Implementation of weak references for Zend\\Stdlib\\CallbackHandler",
+                "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
+                "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
+            },
+            "bin": [
+                "bin/classmap_generator.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev",
+                    "dev-develop": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\": "library/",
+                    "ZendTest\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 2",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "framework",
+                "zf2"
+            ],
+            "time": "2013-04-17 15:15:58"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "dragonprojects/dragonjsonserver": 20,
+        "dragonprojects/dragonjsonserveraccount": 20,
+        "dragonprojects/dragonjsonserveralliance": 20,
+        "dragonprojects/dragonjsonserverapiannotation": 20,
+        "dragonprojects/dragonjsonserveravatar": 20,
+        "dragonprojects/dragonjsonserveravatarmessage": 20,
+        "dragonprojects/dragonjsonserveravatarmuteban": 20,
+        "dragonprojects/dragonjsonserverdevice": 20,
+        "dragonprojects/dragonjsonserverdoctrine": 20,
+        "dragonprojects/dragonjsonserveremailaddress": 20,
+        "dragonprojects/dragonjsonservergameround": 20,
+        "dragonprojects/dragonjsonservergui": 20,
+        "dragonprojects/dragonjsonserverrequestlog": 20,
+        "dragonprojects/dragonjsonserversecuritytoken": 20,
+        "dragonprojects/dragonjsonservertickevent": 20
+    },
+    "platform": {
+        "php": "5.4.*"
+    },
+    "platform-dev": [
+
+    ]
+}
