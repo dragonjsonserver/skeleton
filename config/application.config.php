@@ -29,6 +29,7 @@ return [
         'DragonJsonServerRequestlog',
         'DragonJsonServerSecuritytoken',
         'DragonJsonServerTickevent',
+        'Test',
     ],
     'module_listener_options' => [
         'module_paths' => [
