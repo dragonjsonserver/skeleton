@@ -122,6 +122,7 @@ CREATE TABLE `gamerounds` (
 	`bot` BOOLEAN NOT NULL,
 	`progress` INTEGER(11) NOT NULL,
 	`active` BOOLEAN NOT NULL,
+	`event` VARCHAR(255) NOT NULL,
 	PRIMARY KEY (`gameround_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
