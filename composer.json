@@ -5,6 +5,7 @@
         "zendframework/zendframework": "2.1.*",
         "dragonprojects/dragonjsonserver": "dev-master",
         "dragonprojects/dragonjsonserveraccount": "dev-master",
+        "dragonprojects/dragonjsonserverachievement": "dev-master",
         "dragonprojects/dragonjsonserveralliance": "dev-master",
         "dragonprojects/dragonjsonserverapiannotation": "dev-master",
         "dragonprojects/dragonjsonserveravatar": "dev-master",
