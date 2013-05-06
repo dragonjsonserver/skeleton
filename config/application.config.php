@@ -17,6 +17,7 @@ return [
         'DragonJsonServerAccountachievement',
         'DragonJsonServerAchievement',
         'DragonJsonServerAlliance',
+        'DragonJsonServerAllianceachievement',
         'DragonJsonServerApiannotation',
         'DragonJsonServerAvatar',
         'DragonJsonServerAvatarachievement',
