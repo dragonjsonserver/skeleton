@@ -18,6 +18,7 @@ return [
         'DragonJsonServerAlliance',
         'DragonJsonServerApiannotation',
         'DragonJsonServerAvatar',
+        'DragonJsonServerAvatarachievement',
         'DragonJsonServerAvatarmessage',
         'DragonJsonServerAvatarmuteban',
         'DragonJsonServerDevice', 

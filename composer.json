@@ -9,6 +9,7 @@
         "dragonprojects/dragonjsonserveralliance": "dev-master",
         "dragonprojects/dragonjsonserverapiannotation": "dev-master",
         "dragonprojects/dragonjsonserveravatar": "dev-master",
+        "dragonprojects/dragonjsonserveravatarachievement": "dev-master",
         "dragonprojects/dragonjsonserveravatarmessage": "dev-master",
         "dragonprojects/dragonjsonserveravatarmuteban": "dev-master",
         "doctrine/doctrine-orm-module": "0.*",
