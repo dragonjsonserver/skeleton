@@ -14,6 +14,7 @@ return [
     'modules' => [   
         'DragonJsonServer',
         'DragonJsonServerAccount',
+        'DragonJsonServerAccountachievement',
         'DragonJsonServerAchievement',
         'DragonJsonServerAlliance',
         'DragonJsonServerApiannotation',
