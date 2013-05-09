@@ -6,6 +6,7 @@
         "dragonprojects/dragonjsonserver": "dev-master",
         "dragonprojects/dragonjsonserveraccount": "dev-master",
         "dragonprojects/dragonjsonserveraccountachievement": "dev-master",
+        "dragonprojects/dragonjsonserveraccountloginban": "dev-master",
         "dragonprojects/dragonjsonserverachievement": "dev-master",
         "dragonprojects/dragonjsonserveralliance": "dev-master",
         "dragonprojects/dragonjsonserverallianceachievement": "dev-master",

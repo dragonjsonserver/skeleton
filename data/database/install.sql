@@ -27,6 +27,15 @@ CREATE TABLE `accountachievements` (
 	UNIQUE KEY `account_id` (`account_id`, `gamedesign_identifier`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE `accountloginbans` (
+	`accountloginban_id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`created` TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:00',
+	`account_id` BIGINT(20) UNSIGNED NOT NULL,
+	`end` TIMESTAMP NOT NULL,
+	PRIMARY KEY (`accountloginban_id`),
+	UNIQUE KEY `account_id` (`account_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 CREATE TABLE `alliances` (
 	`alliance_id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
 	`modified` TIMESTAMP NOT NULL DEFAULT NOW() ON UPDATE NOW(),

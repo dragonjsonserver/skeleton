@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0dc330939efa2507b458340367ab6ec3",
+    "hash": "5e5044e054ebe9a4cf4145dad2c5874e",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -215,12 +215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "32c54b7b9d038c1e77d6755bc1d7396a5ce63430"
+                "reference": "7eea788cb5869d9954b0d8091969f54b875d1003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/32c54b7b9d038c1e77d6755bc1d7396a5ce63430",
-                "reference": "32c54b7b9d038c1e77d6755bc1d7396a5ce63430",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/7eea788cb5869d9954b0d8091969f54b875d1003",
+                "reference": "7eea788cb5869d9954b0d8091969f54b875d1003",
                 "shasum": ""
             },
             "require": {
@@ -281,7 +281,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2013-05-08 17:44:11"
+            "time": "2013-05-09 08:02:38"
         },
         {
             "name": "doctrine/dbal",
@@ -650,12 +650,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "c8bcdb4b613fe47fc82221a830d631f01bb7c33c"
+                "reference": "86277def7e6877af8b378019883c5c631566f12b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/c8bcdb4b613fe47fc82221a830d631f01bb7c33c",
-                "reference": "c8bcdb4b613fe47fc82221a830d631f01bb7c33c",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/86277def7e6877af8b378019883c5c631566f12b",
+                "reference": "86277def7e6877af8b378019883c5c631566f12b",
                 "shasum": ""
             },
             "require": {
@@ -716,7 +716,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2013-05-04 13:02:39"
+            "time": "2013-05-09 09:03:21"
         },
         {
             "name": "dragonprojects/dragonjsonserver",
@@ -858,6 +858,52 @@
             "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Accountherausforderungen",
             "homepage": "http://dragonjsonserver.de/",
             "time": "2013-05-06 20:13:51"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserveraccountloginban",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserveraccountloginban.git",
+                "reference": "5158eaa9c24e20649ef49bfd0f42b28b9d8832f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveraccountloginban/zipball/5158eaa9c24e20649ef49bfd0f42b28b9d8832f3",
+                "reference": "5158eaa9c24e20649ef49bfd0f42b28b9d8832f3",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserveraccount": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerAccountloginban": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Accountloginbanns",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-05-09 09:16:15"
         },
         {
             "name": "dragonprojects/dragonjsonserverachievement",
@@ -1190,12 +1236,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonprojects/dragonjsonserveravatarmuteban.git",
-                "reference": "f82620eaa05e4a3eb0413827dda25d9ee96346b0"
+                "reference": "16e78183e350f492391d3313fe1307cee23aadf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatarmuteban/zipball/f82620eaa05e4a3eb0413827dda25d9ee96346b0",
-                "reference": "f82620eaa05e4a3eb0413827dda25d9ee96346b0",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatarmuteban/zipball/16e78183e350f492391d3313fe1307cee23aadf2",
+                "reference": "16e78183e350f492391d3313fe1307cee23aadf2",
                 "shasum": ""
             },
             "require": {
@@ -1229,7 +1275,7 @@
             ],
             "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Avatarmutebanns",
             "homepage": "http://dragonjsonserver.de/",
-            "time": "2013-05-06 19:54:37"
+            "time": "2013-05-08 23:58:14"
         },
         {
             "name": "dragonprojects/dragonjsonserverdevice",
@@ -1764,6 +1810,7 @@
         "dragonprojects/dragonjsonserver": 20,
         "dragonprojects/dragonjsonserveraccount": 20,
         "dragonprojects/dragonjsonserveraccountachievement": 20,
+        "dragonprojects/dragonjsonserveraccountloginban": 20,
         "dragonprojects/dragonjsonserverachievement": 20,
         "dragonprojects/dragonjsonserveralliance": 20,
         "dragonprojects/dragonjsonserverallianceachievement": 20,

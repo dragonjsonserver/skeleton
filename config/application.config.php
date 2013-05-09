@@ -15,6 +15,7 @@ return [
         'DragonJsonServer',
         'DragonJsonServerAccount',
         'DragonJsonServerAccountachievement',
+        'DragonJsonServerAccountloginban',
         'DragonJsonServerAchievement',
         'DragonJsonServerAlliance',
         'DragonJsonServerAllianceachievement',
