@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5e5044e054ebe9a4cf4145dad2c5874e",
+    "hash": "b72ba16a287fd82afdf942d38a154ce2",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -650,12 +650,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "86277def7e6877af8b378019883c5c631566f12b"
+                "reference": "d3cd10d926b1aa9ad29f628f04b367afb44345e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/86277def7e6877af8b378019883c5c631566f12b",
-                "reference": "86277def7e6877af8b378019883c5c631566f12b",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/d3cd10d926b1aa9ad29f628f04b367afb44345e7",
+                "reference": "d3cd10d926b1aa9ad29f628f04b367afb44345e7",
                 "shasum": ""
             },
             "require": {
@@ -716,7 +716,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2013-05-09 09:03:21"
+            "time": "2013-05-09 10:10:45"
         },
         {
             "name": "dragonprojects/dragonjsonserver",
@@ -865,12 +865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonprojects/dragonjsonserveraccountloginban.git",
-                "reference": "5158eaa9c24e20649ef49bfd0f42b28b9d8832f3"
+                "reference": "aeec8ef5d25f392bc2344ee0a9fc535131a9ab16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveraccountloginban/zipball/5158eaa9c24e20649ef49bfd0f42b28b9d8832f3",
-                "reference": "5158eaa9c24e20649ef49bfd0f42b28b9d8832f3",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveraccountloginban/zipball/aeec8ef5d25f392bc2344ee0a9fc535131a9ab16",
+                "reference": "aeec8ef5d25f392bc2344ee0a9fc535131a9ab16",
                 "shasum": ""
             },
             "require": {
@@ -903,7 +903,7 @@
             ],
             "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Accountloginbanns",
             "homepage": "http://dragonjsonserver.de/",
-            "time": "2013-05-09 09:16:15"
+            "time": "2013-05-09 10:12:50"
         },
         {
             "name": "dragonprojects/dragonjsonserverachievement",
@@ -1095,12 +1095,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonprojects/dragonjsonserveravatar.git",
-                "reference": "0cc836540858065383743e906be2d9afa2fc9d04"
+                "reference": "977fd5564d026446b474bcb22c6e48d0a528b7e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatar/zipball/0cc836540858065383743e906be2d9afa2fc9d04",
-                "reference": "0cc836540858065383743e906be2d9afa2fc9d04",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatar/zipball/977fd5564d026446b474bcb22c6e48d0a528b7e7",
+                "reference": "977fd5564d026446b474bcb22c6e48d0a528b7e7",
                 "shasum": ""
             },
             "require": {
@@ -1135,7 +1135,7 @@
             ],
             "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Avataren",
             "homepage": "http://dragonjsonserver.de/",
-            "time": "2013-05-06 19:51:41"
+            "time": "2013-05-09 09:57:42"
         },
         {
             "name": "dragonprojects/dragonjsonserveravatarachievement",
@@ -1183,6 +1183,52 @@
             "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Avatarherausforderungen",
             "homepage": "http://dragonjsonserver.de/",
             "time": "2013-05-06 19:57:01"
+        },
+        {
+            "name": "dragonprojects/dragonjsonserveravatarloginban",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonprojects/dragonjsonserveravatarloginban.git",
+                "reference": "608c370ce0a44d0ea3521b2fd43fd6d8df5d12c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatarloginban/zipball/608c370ce0a44d0ea3521b2fd43fd6d8df5d12c5",
+                "reference": "608c370ce0a44d0ea3521b2fd43fd6d8df5d12c5",
+                "shasum": ""
+            },
+            "require": {
+                "dragonprojects/dragonjsonserver": "dev-master",
+                "dragonprojects/dragonjsonserveravatar": "dev-master",
+                "dragonprojects/dragonjsonserverdoctrine": "dev-master",
+                "php": ">=5.4.0",
+                "zendframework/zendframework": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DragonJsonServerAvatarloginban": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Herrmann",
+                    "email": "developer@dragonprojects.de",
+                    "homepage": "http://dragonjsonserver.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Avatarloginbanns",
+            "homepage": "http://dragonjsonserver.de/",
+            "time": "2013-05-09 10:14:55"
         },
         {
             "name": "dragonprojects/dragonjsonserveravatarmessage",
@@ -1236,12 +1282,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dragonprojects/dragonjsonserveravatarmuteban.git",
-                "reference": "16e78183e350f492391d3313fe1307cee23aadf2"
+                "reference": "d10190e4e91c6a8eeccab500d74efcae87f38b69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatarmuteban/zipball/16e78183e350f492391d3313fe1307cee23aadf2",
-                "reference": "16e78183e350f492391d3313fe1307cee23aadf2",
+                "url": "https://api.github.com/repos/dragonprojects/dragonjsonserveravatarmuteban/zipball/d10190e4e91c6a8eeccab500d74efcae87f38b69",
+                "reference": "d10190e4e91c6a8eeccab500d74efcae87f38b69",
                 "shasum": ""
             },
             "require": {
@@ -1275,7 +1321,7 @@
             ],
             "description": "Erweiterung für den DragonJsonServer zur Verwaltung von Avatarmutebanns",
             "homepage": "http://dragonjsonserver.de/",
-            "time": "2013-05-08 23:58:14"
+            "time": "2013-05-09 09:56:37"
         },
         {
             "name": "dragonprojects/dragonjsonserverdevice",
@@ -1817,6 +1863,7 @@
         "dragonprojects/dragonjsonserverapiannotation": 20,
         "dragonprojects/dragonjsonserveravatar": 20,
         "dragonprojects/dragonjsonserveravatarachievement": 20,
+        "dragonprojects/dragonjsonserveravatarloginban": 20,
         "dragonprojects/dragonjsonserveravatarmessage": 20,
         "dragonprojects/dragonjsonserveravatarmuteban": 20,
         "dragonprojects/dragonjsonserverdevice": 20,

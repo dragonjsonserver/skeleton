@@ -22,6 +22,7 @@ return [
         'DragonJsonServerApiannotation',
         'DragonJsonServerAvatar',
         'DragonJsonServerAvatarachievement',
+        'DragonJsonServerAvatarloginban',
         'DragonJsonServerAvatarmessage',
         'DragonJsonServerAvatarmuteban',
         'DragonJsonServerDevice', 
