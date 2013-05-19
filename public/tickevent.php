@@ -8,7 +8,7 @@
  */
 
 require 'bootstrap.php';
-$serviceManager->get('Server')->run([
+$serviceManager->get('\DragonJsonServer\Service\Server')->run([
 	'method' => 'Tickevent.tickevent',
 	'params' => ['securitytoken' => isset($_GET['securitytoken']) ? $_GET['securitytoken'] : ''],
 ]);
