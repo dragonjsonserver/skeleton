@@ -7,6 +7,10 @@
  * @package DragonJsonServerSkeleton
  */
 
+$environment = getenv('ENVIRONMENT');
+if (!$environment) {
+	$environment = 'local';
+}
 /**
  * @return array
  */
@@ -43,7 +47,7 @@ return [
             './vendor',
         ],
         'config_glob_paths' => [
-            'config/autoload/{,*.}{global,local}.php',
+            'config/autoload/{,*.}{global,' . $environment . '}.php',
         ],
     ],
 ];

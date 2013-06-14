@@ -23,7 +23,7 @@ http://2x.dragonjsonserver.de/
 3. Composer installieren, siehe: http://getcomposer.org/
 4. Abhängigkeiten installieren per "composer install" (Windows) bzw. "php composer.phar install" (Unix, Mac)
 5. Die "/data/database/install.sql" in der Datenbank einspielen
-6. Die "/config/autoload/local.php.template" umbenennen in "local.php" und darin die Daten der Datenbank eintragen
+6. Die "/config/autoload/environment.php.template" umbenennen in "local.php" und darin die Daten der Datenbank eintragen
 7. Die "/public/index.php" im Browser aufrufen
 
 ## Aktualisierung
