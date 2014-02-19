@@ -2,7 +2,7 @@
 	"minimum-stability": "dev",
     "require": {
         "php": "5.4.*",
-        "zendframework/zendframework": "2.1.*",
+        "zendframework/zendframework": "2.2.*",
         "dragonprojects/dragonjsonserver": "dev-master",
         "dragonprojects/dragonjsonserveraccount": "dev-master",
         "dragonprojects/dragonjsonserveraccountachievement": "dev-master",
