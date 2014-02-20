@@ -78,7 +78,7 @@ DragonJsonServerGUI.GUI = function (client)
 		    	.query({
 		    		namespace : namespace,
 		    		method : method,
-		    		data : JSON.stringify(data),
+		    		data : JSON.stringify(data)
 		    	})
 		    + ''
 		);
@@ -244,12 +244,13 @@ DragonJsonServerGUI.GUI = function (client)
                 },
                 error : function(jqXHR, textStatus, errorThrown) {
                     $('#response').html('<pre>' + errorThrown + ' ' + jqXHR.responseText + ' ' + textStatus + '</pre>');
-                },
+                }
             }
         );
         return this;
     };
 
+    var self = this;
     client.smd({
         async : false,
         success : function(json) {
@@ -262,20 +263,20 @@ DragonJsonServerGUI.GUI = function (client)
                 var method = servicename.substr(servicename.lastIndexOf('.') + 1);
                 namespaces[namespace][method] = service.parameters;
             });
+            var select = $('#namespace');
+            $.each(namespaces, function(namespace, methods) {
+                $('<option></option>')
+                    .html(namespace)
+                    .appendTo(select);
+            });
+            var query = new URI().query(true);
+            if (query.data) {
+                $.extend(defaultdata, $.parseJSON(query.data));
+            }
+            self.selectNamespace(query);
         },
         error : function(jqXHR, textStatus, errorThrown) {
             $('#dragonjsonservergui').html('<p>Fehler beim Laden der SMD</p><br /><pre>' + errorThrown + ' ' + jqXHR.responseText + ' ' + textStatus + '</pre>');
-        },
+        }
     });
-    var select = $('#namespace');
-    $.each(namespaces, function(namespace, methods) {
-        $('<option></option>')
-            .html(namespace)
-            .appendTo(select);
-    });
-    var query = new URI().query(true);
-    if (query.data) {
-    	$.extend(defaultdata, $.parseJSON(query.data));
-    }
-    this.selectNamespace(query);
 };
