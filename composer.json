@@ -11,6 +11,7 @@
         "dragonprojects/dragonjsonserveralliance": "dev-master",
         "dragonprojects/dragonjsonserverallianceachievement": "dev-master",
         "dragonprojects/dragonjsonserverapiannotation": "dev-master",
+        "dragonprojects/dragonjsonserverapiclient": "dev-master",
         "dragonprojects/dragonjsonserveravatar": "dev-master",
         "dragonprojects/dragonjsonserveravatarachievement": "dev-master",
         "dragonprojects/dragonjsonserveravatarloginban": "dev-master",
@@ -21,7 +22,6 @@
         "dragonprojects/dragonjsonserverdoctrine": "dev-master",
         "dragonprojects/dragonjsonserveremailaddress": "dev-master",
         "dragonprojects/dragonjsonservergameround": "dev-master",
-        "dragonprojects/dragonjsonservergui": "dev-master",
         "dragonprojects/dragonjsonserverrequestlog": "dev-master",
         "dragonprojects/dragonjsonserversecuritytoken": "dev-master",
         "dragonprojects/dragonjsonservertickevent": "dev-master"

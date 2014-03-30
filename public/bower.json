@@ -3,6 +3,7 @@
     "version" : "2.x",
     "dependencies" : {
         "bootstrap" : "latest",
+        "angular"   : "latest",
         "uri.js"    : "latest"
     }
 }
