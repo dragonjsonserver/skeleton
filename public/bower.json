@@ -1,0 +1,8 @@
+{
+    "name"    : "dragonjsonserverapiclient",
+    "version" : "2.x",
+    "dependencies" : {
+        "bootstrap" : "latest",
+        "uri.js"    : "latest"
+    }
+}
