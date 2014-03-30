@@ -15,11 +15,11 @@ return [
         'connection' => [
             'orm_default' => [
                 'params' => [
-                    'host' => '%host%',
-                    'port' => '%port%',
-                    'user' => '%user%',
+                    'host'     => '%host%',
+                    'port'     => '%port%',
+                    'user'     => '%user%',
                     'password' => '%password%',
-                    'dbname' => '%dbname%',
+                    'dbname'   => '%dbname%',
                 ],
             ],
         ],
