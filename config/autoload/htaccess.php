@@ -8,6 +8,13 @@
  */
 
 /**
+ * @example
+    SetEnv ENVIRONMENT htaccess
+    SetEnv DATABASE_HOST host
+    SetEnv DATABASE_PORT port
+    SetEnv DATABASE_USER user
+    SetEnv DATABASE_PASSWORD password
+    SetEnv DATABASE_DBNAME dbname
  * @return array
  */
 return [
@@ -15,11 +22,11 @@ return [
         'connection' => [
             'orm_default' => [
                 'params' => [
-                    'host'     => '%host%',
-                    'port'     => '%port%',
-                    'user'     => '%user%',
-                    'password' => '%password%',
-                    'dbname'   => '%dbname%',
+                    'host'     => getenv('DATABASE_HOST'),
+                    'port'     => getenv('DATABASE_PORT'),
+                    'user'     => getenv('DATABASE_USER'),
+                    'password' => getenv('DATABASE_PASSWORD'),
+                    'dbname'   => getenv('DATABASE_DBNAME'),
                 ],
             ],
         ],
