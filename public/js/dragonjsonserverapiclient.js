@@ -45,7 +45,11 @@ dragonjsonserverapiclient.controller('ApiclientCtrl', ['$scope', function ($scop
             }
             $scope.namespace = query.namespace || config.apiclient.namespace;
             $scope.method = query.method || config.apiclient.method;
-            $scope.params = query.params || {};
+            if (query.params) {
+                $scope.params = JSON.parse(query.params);
+            } else {
+                $scope.params = {};
+            }
             $scope.connectedserver = $scope.server;
             $scope.$apply();
         }});
@@ -71,7 +75,7 @@ dragonjsonserverapiclient.controller('ApiclientCtrl', ['$scope', function ($scop
         var servicename = $scope.namespace + '.' + $scope.method;
         client.send(new DragonJsonServer.Request(servicename, params), {
             success : function (response) {
-                if ('object' == typeof(response.result)) {
+                if ('object' == typeof response.result) {
                     $.extend($scope.params, response.result);
                 }
                 $scope.response = JSON.stringify(response, null, 4);
@@ -82,6 +86,26 @@ dragonjsonserverapiclient.controller('ApiclientCtrl', ['$scope', function ($scop
                 $scope.$apply();
             }
         });
+    };
+
+    /**
+     * Fügt zum Array einen neuen Index hinzu
+     * @param string paramname
+     */
+    $scope.addArray = function (paramname) {
+        if ('object' != typeof $scope.params[paramname]) {
+            $scope.params[paramname] = [];
+        }
+        $scope.params[paramname].push('');
+    };
+
+    /**
+     * Entfernt einen Key vom Array
+     * @param string paramname
+     * @param string key
+     */
+    $scope.removeArray = function (paramname, key) {
+        delete $scope.params[paramname][key];
     };
 
     $scope.connect();
