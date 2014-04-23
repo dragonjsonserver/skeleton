@@ -1,4 +1,21 @@
 {
+    "name": "dragonprojects/dragonjsonserverskeleton",
+    "description": "Skeleton für Projekte mit dem DragonJsonServer und allen Erweiterungen",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Christoph Herrmann",
+            "email": "developer@dragonprojects.de",
+            "homepage": "http://dragonjsonserver.de/",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "jsonrpc2",
+        "dragonjsonserver",
+        "dragonprojects"
+    ],
+    "homepage": "http://dragonjsonserver.de/",
 	"minimum-stability": "dev",
     "require": {
         "php": "5.4.*",
