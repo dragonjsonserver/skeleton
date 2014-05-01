@@ -15,9 +15,13 @@
     SetEnv DATABASE_USER user
     SetEnv DATABASE_PASSWORD password
     SetEnv DATABASE_DBNAME dbname
+    SetEnv SECURITYTOKENS {"Tickevent":"securitytoken"}
  * @return array
  */
 return [
+    'dragonjsonserversecuritytoken' => [
+        'securitytokens' => getenv('SECURITYTOKENS') ? json_decode(getenv('SECURITYTOKENS')) : [],
+    ],
     'doctrine' => [
         'connection' => [
             'orm_default' => [
