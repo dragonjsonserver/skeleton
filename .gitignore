@@ -1,4 +1,3 @@
-/data/cache/*
 /public/bower_components/
 /vendor/
 /composer.lock
