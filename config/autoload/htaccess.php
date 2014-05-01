@@ -10,15 +10,19 @@
 /**
  * @example
     SetEnv ENVIRONMENT htaccess
+    SetEnv APICACHEFILE 0
+    SetEnv SECURITYTOKENS {"Tickevent":"securitytoken"}
     SetEnv DATABASE_HOST host
     SetEnv DATABASE_PORT port
     SetEnv DATABASE_USER user
     SetEnv DATABASE_PASSWORD password
     SetEnv DATABASE_DBNAME dbname
-    SetEnv SECURITYTOKENS {"Tickevent":"securitytoken"}
  * @return array
  */
 return [
+    'dragonjsonserver' => [
+        'apicachefile' => getenv('APICACHEFILE') ? __DIR__ . '/../../data/cache/apicachefile' : null,
+    ],
     'dragonjsonserversecuritytoken' => [
         'securitytokens' => getenv('SECURITYTOKENS') ? json_decode(getenv('SECURITYTOKENS')) : [],
     ],
