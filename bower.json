@@ -1,6 +1,5 @@
 {
-    "name"    : "dragonjsonserverapiclient",
-    "version" : "2.x",
+    "name" : "dragonjsonserverskeleton",
     "dependencies" : {
         "bootstrap" : "latest",
         "angular" : "latest",
