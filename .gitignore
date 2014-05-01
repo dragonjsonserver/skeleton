@@ -1,8 +1,5 @@
-/config/autoload/local.php
 /data/cache/*
+/public/bower_components/
 /vendor/
-/.buildpath
-/.project
-/.settings/
-/.idea
 /composer.lock
+/.idea/
