@@ -21,7 +21,10 @@
  */
 return [
     'dragonjsonserver' => [
-        'apicachefile' => getenv('APICACHEFILE') ? __DIR__ . '/../../data/cache/apicachefile' : null,
+        'apicachefile' =>
+            getenv('APICACHEFILE')
+                ? getenv('APICACHEFILE') == '1' ? __DIR__ . '/../../data/cache/apicachefile' : getenv('APICACHEFILE')
+                : null,
     ],
     'dragonjsonserversecuritytoken' => [
         'securitytokens' => getenv('SECURITYTOKENS') ? json_decode(getenv('SECURITYTOKENS')) : [],
