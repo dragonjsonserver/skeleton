@@ -10,13 +10,13 @@
 /**
  * @example
     SetEnv ENVIRONMENT htaccess
-    SetEnv APICACHEFILE 0
-    SetEnv SECURITYTOKENS {"Tickevent":"securitytoken"}
-    SetEnv DATABASE_HOST host
-    SetEnv DATABASE_PORT port
-    SetEnv DATABASE_USER user
-    SetEnv DATABASE_PASSWORD password
-    SetEnv DATABASE_DBNAME dbname
+    SetEnv APICACHEFILE %apicachefile%
+    SetEnv SECURITYTOKENS {"%namespace%":"%securitytoken%", "%namespace%":"%securitytoken%"}
+    SetEnv DATABASE_HOST %host%
+    SetEnv DATABASE_PORT %port%
+    SetEnv DATABASE_USER %user%
+    SetEnv DATABASE_PASSWORD %password%
+    SetEnv DATABASE_DBNAME %dbname%
  * @return array
  */
 return [
