@@ -1,9 +1,7 @@
 {
     "name" : "dragonjsonserverskeleton",
     "dependencies" : {
-        "bootstrap" : "latest",
-        "angular" : "latest",
-        "dragonjsonserverjsconnector" : "latest",
-        "dragonjsonserverjsapiclient" : "latest"
+        "dragonjsonserver" : "latest",
+        "dragonjsonserverapiclient" : "latest"
     }
 }
