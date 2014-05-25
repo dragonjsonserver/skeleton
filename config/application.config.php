@@ -26,6 +26,7 @@ return [
         'DoctrineORMModule',
         'DragonJsonServerDoctrine',
         'DragonJsonServerEmailaddress',
+        'DragonJsonServerI18n',
         'DragonJsonServerRequestlog',
         'DragonJsonServerSecuritytoken',
         'Test',
