@@ -29,6 +29,7 @@
         "dragonprojects/dragonjsonserverdevice": "dev-master",
         "dragonprojects/dragonjsonserverdoctrine": "dev-master",
         "dragonprojects/dragonjsonserveremailaddress": "dev-master",
+        "dragonprojects/dragonjsonservererror": "dev-master",
         "dragonprojects/dragonjsonserveri18n": "dev-master",
         "dragonprojects/dragonjsonserverrequestlog": "dev-master",
         "dragonprojects/dragonjsonserversecuritytoken": "dev-master"
