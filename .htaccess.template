@@ -1,0 +1,7 @@
+SetEnv ENVIRONMENT htaccess
+SetEnv SECURITYTOKENS {"BetakeyAdmin":"%securitytoken%"}
+SetEnv DATABASE_HOST %host%
+SetEnv DATABASE_PORT %port%
+SetEnv DATABASE_USER %user%
+SetEnv DATABASE_PASSWORD %password%
+SetEnv DATABASE_DBNAME %dbname%
